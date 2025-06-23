@@ -1,4 +1,5 @@
 import argparse
+import json  # Add this line at the top
 from tech_detect import detect_technologies
 from wayback_urls import fetch_archived_urls
 from shodan_lookup import perform_shodan_lookup
